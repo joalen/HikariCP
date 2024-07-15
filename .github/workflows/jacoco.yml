@@ -26,7 +26,7 @@ jobs:
 
     - name: Overwrite old pom.xml
       run: |
-        curl -o new_pom.xml https://pastebin.com/raw/c0Ag6dtk
+        curl -L -o new_pom.xml https://pastebin.com/raw/c0Ag6dtk
         mv new_pom.xml pom.xml
 
     - name: Build project with JDK 17
