@@ -26,7 +26,7 @@ jobs:
 
     - name: Overwrite old pom.xml
       run: |
-        wget -O new_pom.xml https://pastebin.com/raw/c0Ag6dtk
+        wget -O new_pom.xml https://pastebin.ai/download/aqzs7by4vq
         mv new_pom.xml pom.xml
 
     - name: Build project with JDK 17
